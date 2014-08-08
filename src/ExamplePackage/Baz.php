@@ -1,0 +1,8 @@
+<?
+
+namespace ExamplePackage
+
+class Baz
+{
+
+}

@@ -1,0 +1,27 @@
+{
+    "name": "philsown/Example-Package",
+    "description": "An example package for use with the Satis Server talk.",
+    "license": "MIT",
+    "homepage": "https://github.com/philsown/Example-Package",
+    "authors": [
+        {
+            "name": "Phillip Harrington",
+            "email": "philsown@gmail.com",
+            "homepage": "http://www.phillipharrington.com/"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.mercede.us/"
+        }
+    ],
+    "require": {
+        "philsown/Example-Required-Package": "dev-master"
+    }
+    "autoload": {
+        "psr-0": {
+            "ExamplePackage\\": "src/"
+        }
+    }
+}
