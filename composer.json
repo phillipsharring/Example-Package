@@ -13,12 +13,12 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.mercede.us/"
+            "url": "http://packages.weblacarte.com/"
         }
     ],
     "require": {
         "philsown/Example-Required-Package": "dev-master"
-    }
+    },
     "autoload": {
         "psr-0": {
             "ExamplePackage\\": "src/"
